@@ -13,4 +13,4 @@ Informaçõe do programa:
   Tipo de programa: Site  
   Versão do programa: 1.0  
   O que o programa faz: O sistema simula um cadastro pedindo o usuário, email e senha. há também o botão de esqueci a senha para a recuparação. Esse sistema apenas simula um cadastro pois não há nele conexão com banco de dados.
-Link para ver o site executado: a  
+Link para ver o site executado: https://cadastro-simulado.netlify.app/  
