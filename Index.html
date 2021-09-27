@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simula Cadastros!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        Cadastro:
+    </header>
+    <section>
+        <p id="UserText">
+            Usuario: <br/>
+            <input type="text" id="User" placeholder="Insira o seu usuário:" onkeypress="EnterPressUser()">
+        </p>
+        <p id="EmailText">
+            E-mail: <br/>
+            <input type="email" id="Email" placeholder="Insira o seu e-mail:" onkeypress="EnterPressEmail()">
+        </p>
+        <p id="SenhaText">
+            Senha: <br/>
+            <input type="password" id="Senha" placeholder="Insira a senha:" onkeypress="EnterPressSenha()">
+            <i class = "far fa-eye" id = "togglePassword" onclick="SenhaEyeClick()"> </i>
+        </p>
+        <p id="RsenhaText">
+            Repetir senha: <br/>
+            <input type="password" id="Rsenha" placeholder="Insira a senha:" onkeypress="EnterPressRSenha()">
+            <i class = "far fa-eye" id = "toggleRPassword" onclick="RSenhaEyeClick()"> </i>
+        </p>
+        <a href="" id="EsqSenha" onclick="EsqueciSenha()">Esqueci a senha!</a><br/>
+        <input type="button" value="Cadastrar" id="Cadastrar" onclick="Cadastrar()">
+    </section>
+    <footer>
+        <p>&copy; Breno Cardoso!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
