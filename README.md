@@ -11,5 +11,5 @@ Informaçõe do programa:
   Nome do icone: Não tem  
   Nome do arquivo do programa: Index.html, sytle.css, script.js  
   Tipo de programa: Site  
-  Versão do programa: 1.0
+  Versão do programa: 1.0  
   O que o programa faz: O sistema simula um cadastro pedindo o usuário, email e senha. há também o botão de esqueci a senha para a recuparação. Esse sistema apenas simula um cadastro pois não há nele conexão com banco de dados.
